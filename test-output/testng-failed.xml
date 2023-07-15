@@ -5,8 +5,12 @@
     <classes>
       <class name="login_Page.TestCases_loginPage">
         <methods>
+          <include name="loginBtnDisabled"/>
           <include name="openBrowser"/>
+          <include name="redirect_forgetPass"/>
           <include name="validate_PassRecovery"/>
+          <include name="getFailedlogin_credential"/>
+          <include name="closeBrowser"/>
         </methods>
       </class> <!-- login_Page.TestCases_loginPage -->
     </classes>
